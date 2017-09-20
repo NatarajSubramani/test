@@ -1,0 +1,20 @@
+
+<table class="table">
+    <tr>
+     <th> Invest name </th>
+     <th> IMA section </th>
+     <th> Ongoing Charge</th>
+     <th> Yield </th>
+     <th> Option </th>
+    </tr>
+        <tr ng-repeat="x in userdetail">
+          <td>{{ x.Fund}}</td>
+          <td>{{ x.Group}}</td>
+          <td>{{ x.Focus}}</td>
+          <td>{{ x.Del_function}}</td>
+          <td>
+              <a href="#" class="active-icon"> <img ng-src= "images/bar.png"> </a>
+              <a href="#" class="active-icon"> <img ng-src= "images/arrow-download-icon.png"> </a>
+        </td>
+        </tr>
+      </table>
